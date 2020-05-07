@@ -1,0 +1,12 @@
+[Unit]
+Description=Avon Antivirus
+After=network-online.target
+
+[Service]
+Type=simple
+User=ben
+ExecStart=/usr/bin/python3 /home/ben/Bureau/Avon/avon.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

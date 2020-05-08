@@ -265,7 +265,8 @@ def antivirus(path):
 
 
 # AVOIR LE DERNIER FICHIER D'UN DOSSIER
-list_of_files = glob.glob("/home/nibheis/Bureau/Avon/Testing/*")
+testing_zone = homedir + "/Bureau/Avon/Testing/*"
+list_of_files = glob.glob(testing_zone)
 latest_file = max(list_of_files, key=os.path.getctime)
 
 tests = path_dir + "bdd/fichiers_testes"

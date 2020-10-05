@@ -18,4 +18,4 @@ Avon est désormais en place.
 ### Utilisation
 L'utilisation d'Avon est extrêmement simple : glissez le fichier un fichier au choix dans le dossier `Testing` puis attendez quelques secondes.
 Si le fichier reste dans le dossier, c'est qu'il n'y a priori aucun problème.
-Vous pouvez néanmoins vérifier dans le fichier `notifications.log` se trouvant dans `Avalon/notifications/` pour voir s'il a bien été pris en compte.
+Vous pouvez néanmoins vérifier dans le fichier `notifications.log` se trouvant dans `Avon/notifications/` pour voir s'il a bien été pris en compte.
